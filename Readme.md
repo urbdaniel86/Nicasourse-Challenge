@@ -47,12 +47,12 @@ The only CSV file I could find online was a Kaggle repository called Car_sales.c
 
 In summary, the solution of this problem consists in the following:
 
-    - Utils.py: a library that contains the transformation and loading functions, allowing for modularity and scalability
-    - Pipeline.py: the ETL pipeline. It works specifically for the CSV source file, Car_sales.csv
-    - Reset.py: a script that wipes the database table so the pipeline can be ran again to load the data
-    - Query.py: a script to verify the data has been loaded to the SQL DB
-    - Car_sales.csv: the file containing the data
-    - Credentials.json: not included in the repo, it has all the information needed to connect to the Amazon RDS database
+- Utils.py: a library that contains the transformation and loading functions, allowing for modularity and scalability
+- Pipeline.py: the ETL pipeline. It works specifically for the CSV source file, Car_sales.csv
+- Reset.py: a script that wipes the database table so the pipeline can be ran again to load the data
+- Query.py: a script to verify the data has been loaded to the SQL DB
+- Car_sales.csv: the file containing the data
+- Credentials.json: not included in the repo, it has all the information needed to connect to the Amazon RDS database
 
 ## Instructions
 
